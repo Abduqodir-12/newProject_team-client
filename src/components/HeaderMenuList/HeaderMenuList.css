@@ -1,0 +1,142 @@
+.headerMenuList {
+    margin-top: 40px;
+}
+
+.modalBox {
+    background-color: #e6f4fd;
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    padding: 10px 20px;
+}
+
+.AvtoMenuNone,
+.MenuMotorbikesNone,
+.MenuWaterTransportsNone {
+    display: none;
+}
+
+.MenuAvtomobils {
+    display: block;
+}
+
+.avtomobileModalBtn {
+    cursor: pointer;
+    padding-bottom: 4px;
+    color: rgb(0, 119, 255);
+    border-bottom: 1px dotted blue;
+}
+
+.avtomobileModalBtn:hover {
+    border: 0;
+    color: red;
+    padding-bottom: 5px;
+}
+
+.avtomobileModalBtnActive {
+    cursor: pointer;
+    border-bottom: 1px solid blue;
+    padding-bottom: 4px;
+}
+
+/* Yengil avtomobil */
+
+.MenuAvtomobileList {
+    background-color: #fafafa;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.cityItem,
+.markaItem,
+.modelItem,
+.pozitsiyaItem {
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    margin-bottom: 20px;
+}
+
+.cityText,
+.markaText,
+.modelText,
+.pozitsiyaText {
+    margin-bottom: 0;
+    cursor: pointer;
+    color: rgb(0, 119, 255);
+    border-bottom: 1px dotted blue;
+}
+
+.cityHeading,
+.markaHeading,
+.modelHeading,
+.pozitsiyaHeading {
+    margin-bottom: 0;
+    cursor: pointer;
+    color: rgb(0, 119, 255);
+    border-bottom: 1px dotted blue;
+}
+
+.cityText:hover,
+.markaText:hover,
+.modelText:hover,
+.pozitsiyaText:hover {
+    border: 0;
+    color: red;
+}
+
+.cityHeading:hover,
+.markaHeading:hover,
+.modelHeading:hover,
+.pozitsiyaHeading:hover {
+    border: 0;
+    color: red;
+    padding-bottom: 1px;
+}
+
+.checkbox-container {
+    display: flex;
+    align-items: center;
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    color: #333;
+}
+
+.checkbox-container input[type="checkbox"] {
+    width: 16px;
+    height: 16px;
+    margin-right: 8px;
+    cursor: pointer;
+}
+
+.checkbox-container label {
+    cursor: pointer;
+}
+
+.labelBox {
+    display: flex;
+    align-items: center;
+    gap: 50px;
+}
+
+.bottomBtnBox {
+    background-color: #e6f4fd;
+    padding: 20px;
+}
+
+.bottomBtn {
+    text-align: center;
+    margin: 0 auto;
+    display: block;
+    border: 0;
+    background-color: #2a81dd;
+    color: white;
+    padding: 5px 80px;
+    border-radius: 3px;
+    box-shadow: grey 1px 1px 10px 0px;
+}
+
+.bottomBtn:hover {
+    box-shadow: white 1px 1px 10px 0px;
+}

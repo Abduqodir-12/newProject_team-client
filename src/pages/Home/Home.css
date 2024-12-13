@@ -1,0 +1,54 @@
+
+
+.header {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    padding-top: 20px;
+}
+
+.logo {
+    width: 200px;
+    margin-right: 20px;
+}
+
+.navList {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    list-style-type: none;
+    margin-bottom: 0;
+    padding-left: 0;
+}
+
+.navLink {
+    text-decoration: none;
+    transition: 0.3s ease;
+    padding-bottom: 5px;
+}
+
+.navLink:hover {
+    color: red;
+}
+
+.navLink:active {
+    color: #000;
+    border-bottom: 1px solid blue;
+}
+
+.navBtnBox {
+    margin-left: auto;
+}
+
+.navBtn {
+   display: block;
+   border: 1px solid grey;
+   background-color: #fff;
+   color: blue;
+   padding: 5px 20px;
+   border-radius: 10px;
+}
+
+.navSpan {
+    font-size: 14px;
+}

@@ -1,48 +1,98 @@
-.auth-container {
-    max-width: 400px;
-    margin: 50px auto;
-    padding: 20px;
-    border: 1px solid #ddd;
-    border-radius: 8px;
-    background-color: #f9f9f9;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+.auth-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin: 75px 0 0 0;
 }
 
-.auth-heading {
-    text-align: center;
-    font-size: 24px;
+.auth-logo {
+    max-width: 200px;
     margin-bottom: 20px;
-    color: #333;
 }
 
 .auth-form {
+    width: 315px;
     display: flex;
     flex-direction: column;
+    gap: 10px;
+    padding: 20px;
+    box-shadow: 0 5px 10px 0 rgba(28, 24, 25, .15);
+    border-radius: 3px;
+    margin-bottom: 30px;
+}
+
+.auth-label {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    font-size: 14px;
+    line-height: 24px;
+    font-weight: 400;
+    color: #1c1819;
+}
+
+.input-div {
+    border: solid 1px rgba(28, 24, 25, .1);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-right: 10px;
 }
 
 .auth-input {
-    margin-bottom: 15px;
-    padding: 10px;
-    font-size: 16px;
-    border: 1px solid #ccc;
-    border-radius: 4px;
+    box-shadow: none;
+    width: 100%;
+    height: 36px;
+    border-radius: 3px;
+    background-color: #fff;
+    font-size: 14px;
+    line-height: 36px;
+    letter-spacing: normal;
+    text-align: left;
+    padding-left: 7px;
+    color: #1c1819;
+    outline: 0;
+    border: 0;
+}
+
+.eye-img {
+    width: 16px;
+    height: 16px;
+    cursor: pointer;
 }
 
 .auth-btn {
-    padding: 10px;
-    font-size: 16px;
+    cursor: pointer;
+    padding: 5px 24px;
+    font-size: 14px;
+    line-height: 24px;
+    border: 1px solid rgba(28, 24, 25, .1);
+    border-radius: 3px;
+    background-color: #2a81dd;
     color: #fff;
-    background-color: #007bff;
-    border: none;
-    border-radius: 4px;
+    box-shadow: 0 2px 4px 0 rgba(28, 24, 25, .1);
+    transition: 0.5s ease;
+}
+
+.auth-btn:hover {
+    background-color: #34a2e9;
+}
+
+.auth-span {
+    margin: 0 auto;
+    display: block;
+    color: #34a2e9;
+    transition: 0.5s ease;
     cursor: pointer;
 }
 
-.auth-toggle {
-    display: block;
-    text-align: center;
-    margin-top: 15px;
-    color: #007bff;
-    cursor: pointer;
-    text-decoration: underline;
+.auth-span:hover {
+    color: #2a81dd;
+}
+
+.write-admin {
+    text-decoration: none;
+    color: #2a81dd;
+    font-size: 20px;
 }
