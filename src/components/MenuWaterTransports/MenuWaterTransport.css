@@ -1,0 +1,16 @@
+
+
+.searchInput {
+    width: 100%;
+    border: 1px solid grey;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.searchItem {
+    list-style-type: none;
+}
+
+.searchText {
+    color: grey;
+}
