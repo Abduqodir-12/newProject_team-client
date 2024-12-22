@@ -1,0 +1,63 @@
+.caruselAvtomobiles {
+    margin: 50px 0 50px 0;
+}
+
+.caruselAvtoHeading {
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+
+.caruselAvtoList {
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 10px;
+    padding-left: 0;
+    flex-wrap: wrap;
+}
+
+.caruselAvtoItem {
+    text-decoration: none;
+}
+
+.caruselAvtoImg {
+    width: 150px;
+}
+
+.leftBtn {
+    border: 1px solid grey;
+    border-radius: 5px;
+    padding: 0;
+    background-color: #fff;
+    padding: 3px 5px;
+}
+
+.rightBtn {
+    border: 1px solid grey;
+    border-radius: 5px;
+    padding: 0;
+    background-color: #fff;
+    padding: 3px 5px;
+}
+
+.leftRightBtnBox {
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    gap: 10px;
+}
+
+.caruselAvtoSellBtn {
+    border: 0;
+    background-color: #2a81dd;
+    padding: 5px 20px;
+    border-radius: 10px;
+    color: #fff;
+    display: block;
+    margin: 0 auto;
+}
+
+.hoverBox {
+    display: none;
+}
