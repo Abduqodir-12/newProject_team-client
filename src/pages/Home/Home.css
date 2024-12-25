@@ -57,16 +57,22 @@
 
 .markaList {
     display: flex;
-    align-items: center;
+    align-items: top;
     justify-content: space-between;
     padding-left: 0;
     margin-bottom: 20px;
+    flex-wrap: wrap;
+}
+
+.markaItem {
+    display: block !important;
 }
 
 .markaNames {
     color: blue;
     cursor: pointer;
     transition: 0.3s ease;
+    display: block;
 }
 
 .markaNames:hover {

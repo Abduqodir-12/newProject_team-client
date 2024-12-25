@@ -19,6 +19,7 @@
 
 .caruselAvtoItem {
     text-decoration: none;
+    position: relative;
 }
 
 .caruselAvtoImg {
@@ -60,4 +61,18 @@
 
 .hoverBox {
     display: none;
+}
+
+.caruselAvtoItem:hover div {
+    display: block;
+    background-color: #000;
+    position: absolute;
+    z-index: 2;
+    width: 100%;
+}
+
+.hoverText {
+    color: white;
+    margin: 0;
+    padding: 0;
 }

@@ -11,6 +11,9 @@ const caruselAvto = () => {
 
             <ul className="caruselAvtoList">
                 <li className="caruselAvtoItem">
+                    <div className="hoverBox">
+                        <p className='hoverText'>Toshkent</p>
+                    </div>
                     <img src={Avtomobile1} alt="avtomobile" className='caruselAvtoImg' />
                     <div className='hoverBox'>
                         <p className="hoverText">BYD</p>
@@ -18,83 +21,244 @@ const caruselAvto = () => {
                     </div>
                 </li>
                 <li className="caruselAvtoItem">
+                    <div className="hoverBox">
+                        <p className='hoverText'>Toshkent</p>
+                    </div>
                     <img src={Avtomobile1} alt="avtomobile" className='caruselAvtoImg' />
+                    <div className='hoverBox'>
+                        <p className="hoverText">BYD</p>
+                        <p className="hoverText">35.000$</p>
+                    </div>
                 </li>
                 <li className="caruselAvtoItem">
+                    <div className="hoverBox">
+                        <p className='hoverText'>Toshkent</p>
+                    </div>
                     <img src={Avtomobile1} alt="avtomobile" className='caruselAvtoImg' />
+                    <div className='hoverBox'>
+                        <p className="hoverText">BYD</p>
+                        <p className="hoverText">35.000$</p>
+                    </div>
                 </li>
                 <li className="caruselAvtoItem">
+                    <div className="hoverBox">
+                        <p className='hoverText'>Toshkent</p>
+                    </div>
                     <img src={Avtomobile1} alt="avtomobile" className='caruselAvtoImg' />
+                    <div className='hoverBox'>
+                        <p className="hoverText">BYD</p>
+                        <p className="hoverText">35.000$</p>
+                    </div>
                 </li>
                 <li className="caruselAvtoItem">
+                    <div className="hoverBox">
+                        <p className='hoverText'>Toshkent</p>
+                    </div>
                     <img src={Avtomobile1} alt="avtomobile" className='caruselAvtoImg' />
+                    <div className='hoverBox'>
+                        <p className="hoverText">BYD</p>
+                        <p className="hoverText">35.000$</p>
+                    </div>
                 </li>
                 <li className="caruselAvtoItem">
+                    <div className="hoverBox">
+                        <p className='hoverText'>Toshkent</p>
+                    </div>
                     <img src={Avtomobile1} alt="avtomobile" className='caruselAvtoImg' />
+                    <div className='hoverBox'>
+                        <p className="hoverText">BYD</p>
+                        <p className="hoverText">35.000$</p>
+                    </div>
                 </li>
                 <li className="caruselAvtoItem">
+                    <div className="hoverBox">
+                        <p className='hoverText'>Toshkent</p>
+                    </div>
                     <img src={Avtomobile1} alt="avtomobile" className='caruselAvtoImg' />
+                    <div className='hoverBox'>
+                        <p className="hoverText">BYD</p>
+                        <p className="hoverText">35.000$</p>
+                    </div>
                 </li>
                 <li className="caruselAvtoItem">
+                    <div className="hoverBox">
+                        <p className='hoverText'>Toshkent</p>
+                    </div>
                     <img src={Avtomobile1} alt="avtomobile" className='caruselAvtoImg' />
+                    <div className='hoverBox'>
+                        <p className="hoverText">BYD</p>
+                        <p className="hoverText">35.000$</p>
+                    </div>
                 </li>
                 <li className="caruselAvtoItem">
+                    <div className="hoverBox">
+                        <p className='hoverText'>Toshkent</p>
+                    </div>
                     <img src={Avtomobile1} alt="avtomobile" className='caruselAvtoImg' />
+                    <div className='hoverBox'>
+                        <p className="hoverText">BYD</p>
+                        <p className="hoverText">35.000$</p>
+                    </div>
                 </li>
                 <li className="caruselAvtoItem">
+                    <div className="hoverBox">
+                        <p className='hoverText'>Toshkent</p>
+                    </div>
                     <img src={Avtomobile1} alt="avtomobile" className='caruselAvtoImg' />
+                    <div className='hoverBox'>
+                        <p className="hoverText">BYD</p>
+                        <p className="hoverText">35.000$</p>
+                    </div>
                 </li>
                 <li className="caruselAvtoItem">
+                    <div className="hoverBox">
+                        <p className='hoverText'>Toshkent</p>
+                    </div>
                     <img src={Avtomobile1} alt="avtomobile" className='caruselAvtoImg' />
+                    <div className='hoverBox'>
+                        <p className="hoverText">BYD</p>
+                        <p className="hoverText">35.000$</p>
+                    </div>
                 </li>
                 <li className="caruselAvtoItem">
+                    <div className="hoverBox">
+                        <p className='hoverText'>Toshkent</p>
+                    </div>
                     <img src={Avtomobile1} alt="avtomobile" className='caruselAvtoImg' />
+                    <div className='hoverBox'>
+                        <p className="hoverText">BYD</p>
+                        <p className="hoverText">35.000$</p>
+                    </div>
                 </li>
                 <li className="caruselAvtoItem">
+                    <div className="hoverBox">
+                        <p className='hoverText'>Toshkent</p>
+                    </div>
                     <img src={Avtomobile1} alt="avtomobile" className='caruselAvtoImg' />
+                    <div className='hoverBox'>
+                        <p className="hoverText">BYD</p>
+                        <p className="hoverText">35.000$</p>
+                    </div>
                 </li>
                 <li className="caruselAvtoItem">
+                    <div className="hoverBox">
+                        <p className='hoverText'>Toshkent</p>
+                    </div>
                     <img src={Avtomobile1} alt="avtomobile" className='caruselAvtoImg' />
+                    <div className='hoverBox'>
+                        <p className="hoverText">BYD</p>
+                        <p className="hoverText">35.000$</p>
+                    </div>
                 </li>
                 <li className="caruselAvtoItem">
+                    <div className="hoverBox">
+                        <p className='hoverText'>Toshkent</p>
+                    </div>
                     <img src={Avtomobile1} alt="avtomobile" className='caruselAvtoImg' />
+                    <div className='hoverBox'>
+                        <p className="hoverText">BYD</p>
+                        <p className="hoverText">35.000$</p>
+                    </div>
                 </li>
                 <li className="caruselAvtoItem">
+                    <div className="hoverBox">
+                        <p className='hoverText'>Toshkent</p>
+                    </div>
                     <img src={Avtomobile1} alt="avtomobile" className='caruselAvtoImg' />
+                    <div className='hoverBox'>
+                        <p className="hoverText">BYD</p>
+                        <p className="hoverText">35.000$</p>
+                    </div>
                 </li>
                 <li className="caruselAvtoItem">
+                    <div className="hoverBox">
+                        <p className='hoverText'>Toshkent</p>
+                    </div>
                     <img src={Avtomobile1} alt="avtomobile" className='caruselAvtoImg' />
+                    <div className='hoverBox'>
+                        <p className="hoverText">BYD</p>
+                        <p className="hoverText">35.000$</p>
+                    </div>
                 </li>
                 <li className="caruselAvtoItem">
+                    <div className="hoverBox">
+                        <p className='hoverText'>Toshkent</p>
+                    </div>
                     <img src={Avtomobile1} alt="avtomobile" className='caruselAvtoImg' />
+                    <div className='hoverBox'>
+                        <p className="hoverText">BYD</p>
+                        <p className="hoverText">35.000$</p>
+                    </div>
                 </li>
                 <li className="caruselAvtoItem">
+                    <div className="hoverBox">
+                        <p className='hoverText'>Toshkent</p>
+                    </div>
                     <img src={Avtomobile1} alt="avtomobile" className='caruselAvtoImg' />
+                    <div className='hoverBox'>
+                        <p className="hoverText">BYD</p>
+                        <p className="hoverText">35.000$</p>
+                    </div>
                 </li>
                 <li className="caruselAvtoItem">
+                    <div className="hoverBox">
+                        <p className='hoverText'>Toshkent</p>
+                    </div>
                     <img src={Avtomobile1} alt="avtomobile" className='caruselAvtoImg' />
+                    <div className='hoverBox'>
+                        <p className="hoverText">BYD</p>
+                        <p className="hoverText">35.000$</p>
+                    </div>
                 </li>
                 <li className="caruselAvtoItem">
+                    <div className="hoverBox">
+                        <p className='hoverText'>Toshkent</p>
+                    </div>
                     <img src={Avtomobile1} alt="avtomobile" className='caruselAvtoImg' />
+                    <div className='hoverBox'>
+                        <p className="hoverText">BYD</p>
+                        <p className="hoverText">35.000$</p>
+                    </div>
                 </li>
                 <li className="caruselAvtoItem">
+                    <div className="hoverBox">
+                        <p className='hoverText'>Toshkent</p>
+                    </div>
                     <img src={Avtomobile1} alt="avtomobile" className='caruselAvtoImg' />
+                    <div className='hoverBox'>
+                        <p className="hoverText">BYD</p>
+                        <p className="hoverText">35.000$</p>
+                    </div>
                 </li>
                 <li className="caruselAvtoItem">
+                    <div className="hoverBox">
+                        <p className='hoverText'>Toshkent</p>
+                    </div>
                     <img src={Avtomobile1} alt="avtomobile" className='caruselAvtoImg' />
+                    <div className='hoverBox'>
+                        <p className="hoverText">BYD</p>
+                        <p className="hoverText">35.000$</p>
+                    </div>
                 </li>
                 <li className="caruselAvtoItem">
+                    <div className="hoverBox">
+                        <p className='hoverText'>Toshkent</p>
+                    </div>
                     <img src={Avtomobile1} alt="avtomobile" className='caruselAvtoImg' />
+                    <div className='hoverBox'>
+                        <p className="hoverText">BYD</p>
+                        <p className="hoverText">35.000$</p>
+                    </div>
                 </li>
             </ul>
-            <div className="leftRightBtnBox">
+            {/* <div className="leftRightBtnBox">
                 <button className='leftBtn'>
                     <img src={LeftBtnImg} alt="LeftBtnImg" width={20} />
                 </button>
                 <button className='rightBtn'>
                     <img src={RightBtnImg} alt="RightBtnImg" width={20} />
                 </button>
-            </div>
+            </div> */}
 
             <button className="caruselAvtoSellBtn">+ Sotish</button>
         </div>
