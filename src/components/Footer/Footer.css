@@ -1,0 +1,35 @@
+
+
+.footer {
+    margin-top: 50px;
+}
+
+.footerList {
+    display: flex;
+    align-items: top;
+    justify-content: space-between;
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.footerItem {
+    text-decoration: none;
+    display: block;
+}
+
+.footerLink {
+    text-decoration: none;
+    color: black;
+    display: block;
+    margin-bottom: 15px;
+    cursor: pointer;
+    transition: 0.3s ease;
+}
+
+.footerLink:hover {
+    color: grey;
+}
+
+.socialLink {
+    cursor: pointer;
+}

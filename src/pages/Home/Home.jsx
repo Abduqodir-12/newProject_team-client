@@ -3,6 +3,7 @@ import logo from '../../images/Avtoelon-logo.jpg';
 import './Home.css';
 import HeaderMenuList from '../../components/HeaderMenuList/HeaderMenuList';
 import CaruselAvto from '../../components/CaruselAvto/CaruselAvto';
+import Footer from '../../components/Footer/Footer';
 
 function Home() {
   return (
@@ -70,7 +71,9 @@ function Home() {
           </div>
         </div>
 
-        <div className="footer"></div>
+        <div className="footer">
+          <Footer />
+        </div>
       </div>
     </div>
   )
