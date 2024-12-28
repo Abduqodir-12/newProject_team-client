@@ -5,18 +5,19 @@ import { toast } from 'react-toastify';
 import { useInfoContext } from '../../context/Context';
 
 const CaruselAvto = () => {
-    const { currentUser } = useInfoContext();
-    const [transports, setTransports] = useState([]);
+    const { currentUser, transports, setTransports } = useInfoContext();
 
     useEffect(() => {
         const getAllTransports = async () => {
             try {
                 toast.loading("Please wait...");
                 const res = await getTransports();
+                console.log(res);
+                
                 toast.dismiss();
                 toast.success("All Transports");
                 setTransports(
-                    res?.data?.transports.filter((transport) => transport.author === currentUser?._id)
+                    res?.data?.transports.filter((transport) => transport.author !== currentUser?._id)
                 );
             } catch (error) {
                 console.error(error);
@@ -33,6 +34,8 @@ const CaruselAvto = () => {
             <h3 className='caruselAvtoHeading'>UZ avto bozor savdosi bo'yicha yonayotgan takliflar</h3>
             <ul className="caruselAvtoList">
                 {transports.length > 0 ? (transports.map((transport) => (
+                    console.log(transport),
+                    
                     <li className="caruselAvtoItem" key={transport._id}>
                         <div className="hoverBox">
                             <p className='hoverText'>Toshkent</p>

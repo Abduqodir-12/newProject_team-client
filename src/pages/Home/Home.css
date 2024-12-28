@@ -1,4 +1,6 @@
-
+body {
+    background-color: #fff;
+}
 
 .header {
     display: flex;
@@ -47,6 +49,7 @@
    color: blue;
    padding: 5px 20px;
    border-radius: 10px;
+   text-decoration: none;
 }
 
 .navSpan {

@@ -8,6 +8,7 @@ export const useInfoContext = () => useContext(InfoContext)
 export const InfoProvider = ({ children }) => {
 
     const [currentUser, setCurrentUser] = useState(JSON.parse(localStorage.getItem('account')) || null)
+    const [transports, setTransports] = useState([]);
 
     const exit = () => {
         localStorage.clear()
@@ -16,6 +17,7 @@ export const InfoProvider = ({ children }) => {
 
     const value = {
         currentUser, setCurrentUser,
+        transports, setTransports,
         exit
     }
 

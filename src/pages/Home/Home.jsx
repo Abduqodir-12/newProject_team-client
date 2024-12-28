@@ -4,6 +4,7 @@ import './Home.css';
 import HeaderMenuList from '../../components/HeaderMenuList/HeaderMenuList';
 import CaruselAvto from '../../components/CaruselAvto/CaruselAvto';
 import Footer from '../../components/Footer/Footer';
+import { Link } from 'react-router-dom';
 
 function Home() {
   return (
@@ -31,7 +32,7 @@ function Home() {
           </ul>
 
           <div className='navBtnBox'>
-            <button className="navBtn">+ Sotish</button>
+            <Link to='/Sell' className="navBtn">+ Sotish</Link>
             <span className='navSpan'>Hozir sayta 6000</span>
           </div>
         </div>
