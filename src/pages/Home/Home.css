@@ -43,13 +43,13 @@ body {
 }
 
 .navBtn {
-   display: block;
-   border: 1px solid grey;
-   background-color: #fff;
-   color: blue;
-   padding: 5px 20px;
-   border-radius: 10px;
-   text-decoration: none;
+    display: block;
+    border: 1px solid grey;
+    background-color: #fff;
+    color: blue;
+    padding: 5px 20px;
+    border-radius: 10px;
+    text-decoration: none;
 }
 
 .navSpan {
@@ -57,7 +57,6 @@ body {
 }
 
 /* Marka */
-
 .markaList {
     display: flex;
     align-items: top;
@@ -84,4 +83,70 @@ body {
 
 .markaNames span {
     color: grey;
+}
+
+/* Media Queries */
+
+/* Mobil qurilmalar uchun (768px va undan kichik ekranlar) */
+@media (max-width: 768px) {
+    .header {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .logo {
+        width: 150px;
+        /* Kichikroq logo */
+        margin-bottom: 10px;
+    }
+
+    .navList {
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    .navBtnBox {
+        margin-top: 20px;
+        margin-left: 0;
+    }
+
+    .navBtn {
+        padding: 8px 25px;
+        /* Kattaroq tugma */
+    }
+
+    .markaList {
+        flex-direction: column;
+    }
+
+    .markaNames {
+        font-size: 16px;
+        /* Kattaroq marka nomlari */
+    }
+}
+
+/* Tabletlarga moslashish (768px - 1024px) */
+@media (max-width: 1024px) {
+    .header {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .logo {
+        width: 180px;
+        /* O'rtacha kattalikdagi logo */
+    }
+
+    .navList {
+        gap: 20px;
+    }
+
+    .markaList {
+        justify-content: flex-start;
+    }
+
+    .markaNames {
+        font-size: 16px;
+        /* Marka nomlarini kattaroq qilish */
+    }
 }

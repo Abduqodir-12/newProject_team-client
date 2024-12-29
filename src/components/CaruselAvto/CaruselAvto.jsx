@@ -3,9 +3,11 @@ import './CaruselAvto.css';
 import { getTransports } from '../../api/transportRequistion';
 import { toast } from 'react-toastify';
 import { useInfoContext } from '../../context/Context';
+import { useNavigate } from 'react-router-dom';
 
 const CaruselAvto = () => {
     const { currentUser, transports, setTransports } = useInfoContext();
+    const navigate = useNavigate();
 
     useEffect(() => {
         const getAllTransports = async () => {
@@ -29,14 +31,15 @@ const CaruselAvto = () => {
         }
     }, [currentUser]);
 
+    const handleTransportClick = (id) => {
+        navigate(`/carpost/${id}`);
+    };
     return (
         <div className='caruselAvtomobiles'>
             <h3 className='caruselAvtoHeading'>UZ avto bozor savdosi bo'yicha yonayotgan takliflar</h3>
             <ul className="caruselAvtoList">
-                {transports.length > 0 ? (transports.map((transport) => (
-                    console.log(transport),
-                    
-                    <li className="caruselAvtoItem" key={transport._id}>
+                {transports.length > 0 ? (transports.map((transport) => (                  
+                    <li className="caruselAvtoItem" key={transport._id} onClick={() => handleTransportClick(transport._id)}>
                         <div className="hoverBox">
                             <p className='hoverText'>Toshkent</p>
                         </div>

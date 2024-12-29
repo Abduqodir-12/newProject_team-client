@@ -27,7 +27,7 @@ function Home() {
               <a href="/" className="navLink">Ta'mirlash va xizmatlar</a>
             </li>
             <li className="navItem">
-              <a href="/" className="navLink">Yangiliklar</a>
+              <Link to="/news" className="navLink">Yangiliklar</Link>
             </li>
           </ul>
 

@@ -1,23 +1,26 @@
-import React, { useState, useRef } from 'react';
+import React, { useState } from 'react';
 import './CarSell.css';
 import { toast } from 'react-toastify';
 import { addTransport } from '../../api/transportRequistion';
 import { useInfoContext } from '../../context/Context';
-import { Link } from 'react-router-dom';
+import { Link, useNavigate } from 'react-router-dom';
 
-function App() {
+function CarSell() {
   const { transports, setTransports, currentUser } = useInfoContext(); 
   const [image, setImage] = useState(null);
-  const titleRef = useRef();
+    const navigate = useNavigate();
 
   const handleCreate = async (e) => {
     e.preventDefault();
 
     const formData = new FormData(e.target);
+
+    // Faylni FormData'ga qo'shish
     if (image) {
       formData.append("images", image);  
     }
 
+    // Foydalanuvchi ma'lumotlarini qo'shish
     if (currentUser && currentUser._id) {  
       formData.append("author_id", currentUser._id);
     }
@@ -29,9 +32,12 @@ function App() {
 
       toast.dismiss();
       toast.success(res?.data?.message);
-      setTransports([...transports, res?.data?.newTransport]);  
-      e.target.reset();
-      setImage(null);  
+      // console.log(res.data);
+      
+      setTransports([...transports, res?.data?.transport]);  
+      e.target.reset();  // Formni tozalash
+      setImage(null);  // Image state'ni tozalash
+      navigate('/')
     } catch (error) {
       toast.dismiss();
       toast.error(error?.message || "Failed to add transport.");
@@ -40,6 +46,7 @@ function App() {
   };
 
   const handleImageChange = (e) => {
+    // Faylni state'ga qo'shish
     setImage(e.target.files[0]);  
   };
 
@@ -113,4 +120,4 @@ function App() {
   );
 }
 
-export default App;
+export default CarSell;

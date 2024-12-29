@@ -5,13 +5,14 @@ import Facebook from '../../images/Facebook.png';
 import Instogram from '../../images/Instogram.png';
 import './Footer.css'
 import Logo from '../../images/Avtoelon-logo.jpg'
+import { Link } from 'react-router-dom';
 
 const Footer = () => {
     return (
         <div className='footer'>
             <ul className="footerList">
                 <li className="footerItem">
-                    <img src={Logo} alt="avtoelon.uz" className="logo" />
+                    <Link to="/"><img src={Logo} alt="avtoelon.uz" className="logo" /></Link>
                 </li>
                 <li className="footerItem">
                     <a href="#" className="footerLink">Kompaniya haqida</a>
