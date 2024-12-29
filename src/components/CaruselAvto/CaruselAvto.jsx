@@ -3,7 +3,7 @@ import './CaruselAvto.css';
 import { getTransports } from '../../api/transportRequistion';
 import { toast } from 'react-toastify';
 import { useInfoContext } from '../../context/Context';
-import { useNavigate } from 'react-router-dom';
+import { Link, useNavigate } from 'react-router-dom';
 
 const CaruselAvto = () => {
     const { currentUser, transports, setTransports } = useInfoContext();
@@ -55,7 +55,7 @@ const CaruselAvto = () => {
                 )}
             </ul>
 
-            <button className="caruselAvtoSellBtn">+ Sotish</button>
+            <Link to='/Sell' className="caruselAvtoSellBtn">+ Sotish</Link>
         </div>
     );
 };

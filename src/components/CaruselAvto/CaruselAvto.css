@@ -58,6 +58,8 @@
     color: #fff;
     display: block;
     margin: 0 auto;
+    text-decoration: none;
+    width: 100px;
 }
 
 .hoverBox {
